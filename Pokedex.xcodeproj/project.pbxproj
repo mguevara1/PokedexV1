@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		D179DACC28A8277B00614480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179DACB28A8277B00614480 /* AppDelegate.swift */; };
 		D179DACE28A8277B00614480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179DACD28A8277B00614480 /* SceneDelegate.swift */; };
-		D179DAD028A8277B00614480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179DACF28A8277B00614480 /* ViewController.swift */; };
+		D179DAD028A8277B00614480 /* ListaPokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179DACF28A8277B00614480 /* ListaPokemonViewController.swift */; };
 		D179DAD328A8277B00614480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D179DAD128A8277B00614480 /* Main.storyboard */; };
 		D179DAD628A8277B00614480 /* Pokedex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D179DAD428A8277B00614480 /* Pokedex.xcdatamodeld */; };
 		D179DAD828A8278000614480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D179DAD728A8278000614480 /* Assets.xcassets */; };
 		D179DADB28A8278000614480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D179DAD928A8278000614480 /* LaunchScreen.storyboard */; };
+		D179DAE328A8361F00614480 /* PokemonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179DAE228A8361F00614480 /* PokemonManager.swift */; };
+		D179DAE528A8368700614480 /* DatosPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179DAE428A8368700614480 /* DatosPokemon.swift */; };
+		D1992A1528AAE82400AB0F8E /* CeldaPokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1992A1328AAE82400AB0F8E /* CeldaPokemonTableViewCell.swift */; };
+		D1992A1628AAE82400AB0F8E /* CeldaPokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1992A1428AAE82400AB0F8E /* CeldaPokemonTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D179DAC828A8277B00614480 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D179DACB28A8277B00614480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D179DACD28A8277B00614480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D179DACF28A8277B00614480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D179DACF28A8277B00614480 /* ListaPokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPokemonViewController.swift; sourceTree = "<group>"; };
 		D179DAD228A8277B00614480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D179DAD528A8277B00614480 /* Pokedex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokedex.xcdatamodel; sourceTree = "<group>"; };
 		D179DAD728A8278000614480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D179DADA28A8278000614480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D179DADC28A8278000614480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D179DAE228A8361F00614480 /* PokemonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonManager.swift; sourceTree = "<group>"; };
+		D179DAE428A8368700614480 /* DatosPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosPokemon.swift; sourceTree = "<group>"; };
+		D1992A1328AAE82400AB0F8E /* CeldaPokemonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPokemonTableViewCell.swift; sourceTree = "<group>"; };
+		D1992A1428AAE82400AB0F8E /* CeldaPokemonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaPokemonTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,16 @@
 			children = (
 				D179DACB28A8277B00614480 /* AppDelegate.swift */,
 				D179DACD28A8277B00614480 /* SceneDelegate.swift */,
-				D179DACF28A8277B00614480 /* ViewController.swift */,
+				D179DACF28A8277B00614480 /* ListaPokemonViewController.swift */,
 				D179DAD128A8277B00614480 /* Main.storyboard */,
 				D179DAD728A8278000614480 /* Assets.xcassets */,
 				D179DAD928A8278000614480 /* LaunchScreen.storyboard */,
 				D179DADC28A8278000614480 /* Info.plist */,
 				D179DAD428A8277B00614480 /* Pokedex.xcdatamodeld */,
+				D179DAE228A8361F00614480 /* PokemonManager.swift */,
+				D179DAE428A8368700614480 /* DatosPokemon.swift */,
+				D1992A1328AAE82400AB0F8E /* CeldaPokemonTableViewCell.swift */,
+				D1992A1428AAE82400AB0F8E /* CeldaPokemonTableViewCell.xib */,
 			);
 			path = Pokedex;
 			sourceTree = "<group>";
@@ -131,6 +143,7 @@
 				D179DADB28A8278000614480 /* LaunchScreen.storyboard in Resources */,
 				D179DAD828A8278000614480 /* Assets.xcassets in Resources */,
 				D179DAD328A8277B00614480 /* Main.storyboard in Resources */,
+				D1992A1628AAE82400AB0F8E /* CeldaPokemonTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +155,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D179DAD628A8277B00614480 /* Pokedex.xcdatamodeld in Sources */,
-				D179DAD028A8277B00614480 /* ViewController.swift in Sources */,
+				D179DAD028A8277B00614480 /* ListaPokemonViewController.swift in Sources */,
+				D179DAE328A8361F00614480 /* PokemonManager.swift in Sources */,
+				D1992A1528AAE82400AB0F8E /* CeldaPokemonTableViewCell.swift in Sources */,
 				D179DACC28A8277B00614480 /* AppDelegate.swift in Sources */,
 				D179DACE28A8277B00614480 /* SceneDelegate.swift in Sources */,
+				D179DAE528A8368700614480 /* DatosPokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
